@@ -18,7 +18,8 @@
         "ckeditor/codesnippet": "4.6.2",
         "drupal/backup_migrate": "^4.0",
         "drupal/bootstrap_clean_blog": "^1.0",
-        "drupal/admin_toolbar": "^1.26"
+        "drupal/admin_toolbar": "^1.26",
+        "drupal/fontyourface": "^3.2"
     },
     "repositories": {
         "drupal": {
