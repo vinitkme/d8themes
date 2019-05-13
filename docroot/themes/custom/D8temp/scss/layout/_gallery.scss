@@ -1,0 +1,31 @@
+.article-block{
+	.paragraph--type--photos-gallery{
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 40px;
+		img{
+		width: 100%;
+		-o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+    &:hover{
+	    -webkit-transform: scale(1.02);
+	    transform: scale(1.02);
+	    }
+		}
+		a{
+		padding: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10%;
+    z-index: 1;
+    font-size: 1.2em;
+		}
+	}
+}

@@ -1,0 +1,160 @@
+#myNav > div {
+  width: 100%;
+  height: 100%; }
+  #myNav > div nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 30px; }
+    #myNav > div nav ul {
+      padding: 0px; }
+      #myNav > div nav ul li {
+        list-style: none; }
+        #myNav > div nav ul li a {
+          display: inline-block; }
+
+header .gizra-logo.small img {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  width: 60px;
+  height: 60px; }
+
+.footer-block .icons .icon-one {
+  color: #000000; }
+  .footer-block .icons .icon-one:before {
+    content: "\f099"; }
+.footer-block .icons .icon-two {
+  color: #000000; }
+  .footer-block .icons .icon-two:before {
+    content: "\f09b"; }
+.footer-block .icons a {
+  text-decoration: none; }
+  .footer-block .icons a:before {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 2em; }
+.footer-block .footer-content h2 {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 18px; }
+.footer-block .footer-content p {
+  margin: 0px; }
+
+.article-block .paragraph--type--photos-gallery {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px; }
+  .article-block .paragraph--type--photos-gallery img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer; }
+    .article-block .paragraph--type--photos-gallery img:hover {
+      -webkit-transform: scale(1.02);
+      transform: scale(1.02); }
+  .article-block .paragraph--type--photos-gallery a {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10%;
+    z-index: 1;
+    font-size: 1.2em; }
+
+.article-block .paragraph--type--para {
+  float: left;
+  width: 33.33%; }
+
+.paragraph--type--global-button div {
+  text-align: center;
+  margin: 3em 0; }
+  .paragraph--type--global-button div a {
+    border: 3px solid #578e9b;
+    padding: 0.8rem 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #578e9b;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .paragraph--type--global-button div a:hover {
+      background-color: #578e9b;
+      color: #fff; }
+
+.snippet-view {
+  margin-bottom: 2rem; }
+  .snippet-view .snippets-block .snippets-block-img .img-snippets {
+    overflow: hidden; }
+    .snippet-view .snippets-block .snippets-block-img .img-snippets img {
+      width: 100%;
+      border: 1px solid #f5f5f5;
+      transition: all 1s ease;
+      height: auto;
+      cursor: pointer; }
+      .snippet-view .snippets-block .snippets-block-img .img-snippets img:hover {
+        transform: scale(1.02); }
+  .snippet-view .snippets-block .snippets-block-content .row .author-info-date {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+    .snippet-view .snippets-block .snippets-block-content .row .author-info-date .author-name span a {
+      color: #000000;
+      font-family: "Montserrat", sans-serif;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      text-decoration: none; }
+    .snippet-view .snippets-block .snippets-block-content .row .author-info-date .article-date {
+      color: #000000;
+      font-family: "Montserrat", sans-serif;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: -0.02em; }
+  .snippet-view .snippets-block .snippets-block-content h2 {
+    margin-top: 0px;
+    font-size: 20px; }
+    .snippet-view .snippets-block .snippets-block-content h2 a {
+      text-transform: capitalize;
+      text-decoration: none; }
+  .snippet-view .snippets-block .snippets-block-content .snippets-block-body {
+    font-size: 18px; }
+    .snippet-view .snippets-block .snippets-block-content .snippets-block-body ul {
+      padding-top: 1rem;
+      padding-left: 0px; }
+      .snippet-view .snippets-block .snippets-block-content .snippets-block-body ul li {
+        list-style: none; }
+        .snippet-view .snippets-block .snippets-block-content .snippets-block-body ul li a {
+          text-decoration: none;
+          text-transform: capitalize; }
+
+.title-feild h1 {
+  padding-bottom: .21428571rem;
+  border-bottom: 1px solid #868482;
+  color: #000;
+  transition: .3s all; }
+
+.content-margin {
+  max-width: 740px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin: 0 auto; }
+  .content-margin .author-info-date {
+    display: flex;
+    justify-content: space-between; }
+
+/*# sourceMappingURL=style.css.map */

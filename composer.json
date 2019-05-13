@@ -14,12 +14,13 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
         "acquia/lightning": "~3.2.0",
-        "drupal/codesnippet": "^1.6",
+        "drupal/codesnippet": "1.x-dev",
         "ckeditor/codesnippet": "4.6.2",
         "drupal/backup_migrate": "^4.0",
         "drupal/bootstrap_clean_blog": "^1.0",
-        "drupal/admin_toolbar": "^1.26",
-        "drupal/fontyourface": "^3.2"
+        "drupal/admin_toolbar": "1.x-dev",
+        "drupal/fontyourface": "^3.2",
+        "drupal/zurb_foundation": "6.x-dev"
     },
     "repositories": {
         "drupal": {
