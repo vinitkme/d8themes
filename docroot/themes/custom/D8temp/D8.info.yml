@@ -1,0 +1,31 @@
+# core: 8.x
+type: theme
+name: 'D8'
+# description: 'Built to use black-old which is based on Bootstrap, it is blogger theme.'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  footer_first: 'First Bottom'
+  footer_second: 'Second Bottom'
+  footer_third: 'Third Bottom'
+  footer_fourth: 'Fourth Bottom'
+
+libraries:
+  - D8/global-styling
+  - D8/attributes
+  - D8/fonts
+  - D8/font-awesome
+
+# Information added by Drupal.org packaging script on 2019-01-09
+version: '8.x-1.0'
+core: '8.x'
+project: 'D8'
+datestamp: 1535372886

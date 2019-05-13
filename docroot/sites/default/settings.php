@@ -769,9 +769,9 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'd8',
-  'username' => 'vinit',
-  'password' => 'Vinit_iias1788',
+  'database' => 'd8theme',
+  'username' => 'akshaya',
+  'password' => 'Rocky@1234',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

@@ -1,0 +1,33 @@
+.footer-block{
+	.icons{
+		.icon-one{
+			color: #000000;
+			&:before{
+			content: "\f099";
+			}
+		}
+		.icon-two{
+			  color: #000000;
+			&:before{
+			content: "\f09b";
+			}
+		}
+		a{
+			text-decoration: none;
+			&:before{
+			font-family: "Font Awesome 5 Brands";
+	    font-size: 2em;
+			}
+		}
+	}
+	.footer-content{
+		h2{
+		margin: 0px;
+    font-weight: 700;
+    font-size: 18px;
+		}
+		p{
+			margin: 0px;
+		}
+	}
+}
